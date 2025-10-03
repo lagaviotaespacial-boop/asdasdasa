@@ -1,0 +1,76 @@
+h1 {
+    color: white;
+    font-family: impact;
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+form {
+    background-color: rgb(92, 109, 106);
+    width: 200px;
+    height: 190px;
+    margin: auto;
+    margin-top: 190px;
+    border-left: 3px solid blue;
+    border-right: 3px solid blue;
+    border-bottom: 3px solid blue;
+    border-radius: 10px;
+}
+.register-text {
+    text-align: center;
+    background-color: darkgoldenrod;
+    border-top: 3px solid blue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.email {
+    width:147px;
+    border: none;
+    margin: 0 20px 10px 20px;
+    border-top: 3px solid black;
+}
+.password {
+    width: 145px;
+    border: none;
+    margin: 0px 20px 10px 20px;
+    border-top: 3px solid black;
+}
+
+.username {
+    border: none;
+    margin: 0px 20px 10px 20px;
+    width:145px ;
+    border-top: 3px solid black;
+}
+
+.submit {
+    margin: 0px 20px 10px 20px;
+    width: 153px;
+    background-color: rgb(24, 193, 24);
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+html {
+    background-color: black;
+} 
+.text {
+    margin: 0 10px 0 14px;
+}
+.yes-no {
+    margin: 0 10px 0 10px;
+    text-align: center;
+    word-spacing: 50px;
+}
+.verificacion-ok {
+    margin: 0 0 0 57px;
+}
+.verificacion-not-ok {
+    margin: 0 0 0 58px;
+}

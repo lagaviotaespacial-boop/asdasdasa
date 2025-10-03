@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ejercicio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Register página web</h1>
+    <form>
+        <p class="register-text">Register</p>
+        <input type="email" class="email" required placeholder="Email">
+        <input type="text" class="username" placeholder="Username">
+        <input type="password"class="password" required minlength="8" placeholder="Password">
+        <p class="text">Are you over the age of 18?</p>
+        <p class="yes-no">Yes No</p>
+        <div class="separador"></div>
+        <input type="radio" class="verificacion-ok" name="verificacion" value="yes">
+        <input type="radio" class="verificacion-not-ok" name="verificacion" value="no">
+        <input type="submit" class="submit">
+        
+    </form>
+    <script>
+    const form = document.querySelector('form');
+
+    form.addEventListener('submit', function(event) {
+        const opcion = document.querySelector('input[name="verificacion"]:checked');
+        if (opcion && opcion.value === 'no') {
+            event.preventDefault(); // Evita el envío del formulario
+            alert('You cant complete the form if you are under the age of 18.');
+        }
+    });
+</script>
+</body>
+</html>
